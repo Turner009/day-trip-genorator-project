@@ -1,2 +1,4 @@
-print ("Visit jw.org")
+# day trip genorator project
+
+
 
