@@ -62,10 +62,12 @@ def entertain():
         entertain_answer = input("Do you like this choice? (Y or N)")
     print(f"Your confirmed entertainment option is", trip_selections["etertainment"], ".")
 
-# city()
-# food()
-# transport()
+city()
+food()
+transport()
 entertain()
+
+print(f"Enoy your trip to",trip_selections["city"],"the food from,",trip_selections["food"], "get around by means of",trip_selections["transportation"],"and entertained by",trip_selections["etertainment"],"!")
 
 
 
