@@ -91,7 +91,7 @@ def review_and_confirm():
     print("Please give a final review to your choices. Would you like to confirm?")
     final_confirm = input("(Y on N) ")
     if final_confirm == "N":
-        print("Please restart day trip generator.")
+        print("Please restart day trip generator to make new selections.")
     elif final_confirm == "Y":
         print("")
         print(f"Enjoy your trip to ",trip_selections["city"]," the food from, ",trip_selections["food"], " get around by means of ",trip_selections["transportation"]," and entertained by ",trip_selections["entertainment"],"!")
